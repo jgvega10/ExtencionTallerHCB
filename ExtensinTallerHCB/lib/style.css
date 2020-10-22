@@ -1,0 +1,52 @@
+/* Add your styles here */
+.cont
+{
+  display:inline-block;
+  height: 5000px;
+}
+
+body{
+  background-color: coral;
+}
+
+#freshT
+{
+  text-align: center;
+  font-size: 150px;
+}
+
+.photo
+{
+  width: 250px
+}
+#col1
+{
+  border-color: cornflowerblue;
+  border-style: solid;
+  outline-color: cornflowerblue;
+  outline-style: solid;
+  background-color: white;
+}
+
+.fotoFrutas
+{
+  width: 175px;
+  height: 130px;
+}
+
+
+
+#freshT
+{
+  color:cornflowerblue;
+}
+
+#col2fil1
+{
+  
+}
+#eslogan
+{
+  color:cornflowerblue;
+  text-align: center;
+}

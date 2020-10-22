@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="lib/style.css" />
+</head>
+
+<body>
+	<div class="container" id="cont">
+		<div class="row" id="fila1">
+			<div class="col-3" id="col1">
+				<img
+            class="photo"
+            src="data:image/jpeg;base64,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"
+          />
+        </div>
+			<div class="col-9" id="col2">
+				<div class="col-12" id="col2fil1">
+					<h1 id="freshT">FRESH</h1>
+				</div>
+				<div class="col-12" id="eslogan">
+					<h4>¡Un sabor refrescante!</h4>
+				</div>
+			</div>
+		</div>
+
+		<br />
+		<br />
+
+		<div class="row" id="fila2">
+			<div class="col-6">
+				<h5>
+					Fresh es un emprediemiento 100% llanero que, mediante la venta de
+					pulpa de fruta netamente natural, busca ayudar al campo Colombiano y
+					contribuir a la sana alimentacion de las personas. Por lo tanto,
+					nuestros productos son libres de quimicos, aditivos, conservantes,
+					colorantes y azucar añadida.
+				</h5>
+			</div>
+			<div class="col-6">
+				<h5>
+					Ofrecemos un catalogo variado de pulpas de frutas donde cada una te
+					hará sentir distintas experiencias.
+				</h5>
+			</div>
+		</div>
+
+		<br/>
+		<br/>
+		<h1><b>Nuestras Pulpas de Fruta son:</b></h1>
+		<br/>
+
+		<div class="row" id="fila3">
+			<div class="col-6">
+				<ul>
+					<h4>
+						<li>Guanabana</li>
+					</h4>
+					<h4>
+						<li>Maracuyá</li>
+					</h4>
+					<h4>
+						<li>Lulo</li>
+					</h4>
+					<h4>
+						<li>Mango</li>
+					</h4>
+					<h4>
+						<li>Mora</li>
+					</h4>
+					<h4>
+						<li>Piña</li>
+					</h4>
+				</ul>
+			</div>
+
+			<div class="col-6">
+
+				<img class= " fotoFrutas" src="https://www.jardineriaon.com/wp-content/uploads/2018/06/frutos-del-lulo-830x623.jpg">
+
+				<img class= " fotoFrutas" src="https://static.misionesonline.news/wp-content/uploads/2017/03/unnamed-3puau71jmrag.jpg">
+
+				<img class= " fotoFrutas" src="https://www.fromnativo.com/wp-content/uploads/2020/07/guanabana-graviola-propiedades.jpg">
+
+				<img class= " fotoFrutas" src="https://static.misionesonline.news/wp-content/uploads/2019/10/Moras-m2iikn3tad00.jpg">
+
+				<img class= " fotoFrutas" src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/05/que-ocurre-cuando-comes-mango-diario.jpg">
+
+				<img class= " fotoFrutas" src="https://adncuba.com/sites/default/files/2020-06/Pi%C3%B1a%20cortada.jpg">
+
+				<br/>
+				<br/>
+			</div>
+
+			<div class = "row" id = "fila4">
+        <br/>
+				<br/>
+				<h6>Visita nuestras <b>Redes Sociales:<div class = "row" id = "fila5">
+        <br/>
+        <br/>
+        <br/>
+			  </h4><a href="https://www.facebook.com/freshpulpadefruta/" target="_blank">Facebook</a></h4>
+				<br/>
+				<br/>  
+				<a href=" https://www.instagram.com/invites/contact/?i=tkch7w2kwa0d&utm_content=i8f5e31"
+					target="_blank">Instagram
+        </a>
+			<div></b></h6>
+
+      </div>
+
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+		integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
